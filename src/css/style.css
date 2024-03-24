@@ -14,7 +14,8 @@ html {
         display: flex; /* Make it a flex container */
         justify-content: center; /* Center buttons horizontally */
         margin: 10px 10px;
-        padding: 20px 10px; /* Add some margin for spacing */
+        padding: 20px 10px;
+        font-family: 'Courier New', Courier, monospace 
     }
 
     .paragrafo {
@@ -22,17 +23,19 @@ html {
         justify-content: center; /* Center buttons horizontally */
         margin: 10px 10px;
         padding: 20px 10px; /* Add some margin for spacing */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     }
 
     .botoes {
         display: flex; /* Make it a flex container */
         flex-wrap: wrap;
         justify-content: center; /* Center buttons horizontally */
-        margin: 0px 0px;
+        margin: 10px 10px;
     }
 
 .botao {
-    margin: 2px 2px;
+    margin: 30px 30px;
     color: white ;
     background-color: goldenrod;
     border: solid #cd7f32;
