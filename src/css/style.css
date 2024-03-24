@@ -1,10 +1,38 @@
 html {
     background-color: black;
     color: aliceblue;
-
 }
+
+.ragnarok-origin img {
+    display: flex;
+    justify-self: center;
+    max-width: 100%;  /* Responsive width */
+    height: auto;      /* Automatic height */
+    margin: 0 auto;    /* Center horizontally */
+}
+.titulo {
+        display: flex; /* Make it a flex container */
+        justify-content: center; /* Center buttons horizontally */
+        margin: 10px 10px;
+        padding: 20px 10px; /* Add some margin for spacing */
+    }
+
+    .paragrafo {
+        display: flex; /* Make it a flex container */
+        justify-content: center; /* Center buttons horizontally */
+        margin: 10px 10px;
+        padding: 20px 10px; /* Add some margin for spacing */
+    }
+
+    .botoes {
+        display: flex; /* Make it a flex container */
+        flex-wrap: wrap;
+        justify-content: center; /* Center buttons horizontally */
+        margin: 0px 0px;
+    }
+
 .botao {
-    margin: 10px 10px;
+    margin: 2px 2px;
     color: white ;
     background-color: goldenrod;
     border: solid #cd7f32;
@@ -13,8 +41,8 @@ html {
 }
 
 .botao-clicado {
-    background-color: rgb(59, 59, 113);
-    border: solid whitesmoke;
+    background-color: rgb(76, 142, 76);
+    border: solid rgb(45, 101, 45);
     border-radius: 5px;
     cursor: pointer;
 }
