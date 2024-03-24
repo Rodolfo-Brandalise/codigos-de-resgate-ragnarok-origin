@@ -1,14 +1,20 @@
+html {
+    background-color: black;
+    color: aliceblue;
+
+}
 .botao {
-    margin: 5px 5px;
-    background-color: gold;
-    border: solid goldenrod;
+    margin: 10px 10px;
+    color: white ;
+    background-color: goldenrod;
+    border: solid #cd7f32;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.clicado {
-    background-color: green;
-    border: solid black;
+.botao-clicado {
+    background-color: rgb(59, 59, 113);
+    border: solid whitesmoke;
     border-radius: 5px;
     cursor: pointer;
 }
