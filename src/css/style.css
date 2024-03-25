@@ -3,13 +3,11 @@ html {
     color: aliceblue;
 }
 
-.ragnarok-origin img {
-    display: flex;
-    justify-self: center;
-    max-width: 100%;  /* Responsive width */
-    height: auto;      /* Automatic height */
-    margin: 0 auto;    /* Center horizontally */
-}
+body {
+background-image: url(../imagens/ragnarok-origin.png);
+    }
+
+
 .titulo {
         display: flex; /* Make it a flex container */
         justify-content: center; /* Center buttons horizontally */
@@ -35,17 +33,17 @@ html {
     }
 
 .botao {
-    margin: 30px 30px;
+    margin: 80px 80px;
     color: white ;
-    background-color: goldenrod;
-    border: solid #cd7f32;
+    background-color:rgba(106, 49, 147, 0.335);
+        border: solid rgba(69, 0, 119, 0.331);
     border-radius: 5px;
     cursor: pointer;
 }
 
 .botao-clicado {
-    background-color: rgb(76, 142, 76);
-    border: solid rgb(45, 101, 45);
+    background-color: rgba(255, 217, 0, 0.296);
+    border: solid rgba(218, 165, 32, 0.29);
     border-radius: 5px;
     cursor: pointer;
 }

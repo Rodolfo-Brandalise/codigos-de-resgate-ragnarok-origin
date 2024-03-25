@@ -6,3 +6,4 @@ function copyToClipboard(texto) {
     clickedButton.classList.add('botao-clicado');
     }
 }
+
