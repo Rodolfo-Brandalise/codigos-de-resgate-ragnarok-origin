@@ -71,9 +71,9 @@ body {
 
 .video-container {
     margin: 5px 50px;
-    position: relative;
-    padding: 3px 3px;
-    max-width: 450px;
+justify-self: center;
+    padding: 5px 5px;
+    max-width: 210px;
     background-color: rgba(94, 185, 255, 0.786);
     border: solid white;
     border-radius: 15px;
