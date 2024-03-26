@@ -4,47 +4,79 @@ html {
 }
 
 body {
-background-image: url(../imagens/ragnarok-origin.png);
-    }
+    background-image: url(../imagens/ragnarok-origin.png);
+}
+.inventario {
+    margin: 5px 5px;
+    max-width: 700px;
+    background-color: rgba(94, 185, 255, 0.300);
+    border: solid white;
+    border-radius: 15px;
+}
 
 
 .titulo {
-        display: flex; /* Make it a flex container */
-        justify-content: center; /* Center buttons horizontally */
-        margin: 10px 10px;
-        padding: 20px 10px;
-        font-family: 'Courier New', Courier, monospace 
-    }
+    display: flex;
+    /* Make it a flex container */
+    justify-content: center;
+    /* Center buttons horizontally */
+    margin: 10px 10px;
+    padding: 1px 1px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-    .paragrafo {
-        display: flex; /* Make it a flex container */
-        justify-content: center; /* Center buttons horizontally */
-        margin: 10px 10px;
-        padding: 20px 10px; /* Add some margin for spacing */
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    }
+.paragrafo {
+    display: flex;
+    /* Make it a flex container */
+    justify-content: center;
+    /* Center buttons horizontally */
+    margin: 10px 10px;
+    padding: 20px 10px;
+    /* Add some margin for spacing */
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-    .botoes {
-        display: flex; /* Make it a flex container */
-        flex-wrap: wrap;
-        justify-content: center; /* Center buttons horizontally */
-        margin: 10px 10px;
-    }
+.botoes {
+    display: flex;
+    /* Make it a flex container */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center buttons horizontally */
+    margin: 5px 5px;
+}
 
 .botao {
-    margin: 40px 40px;
-    padding: 10px 10px;
-    color: white ;
-    background-color:rgba(106, 49, 147, 0.335);
-        border: solid rgba(69, 0, 119, 0.331);
-    border-radius: 5px;
+    margin: 5px 5px;
+    background-color: rgba(94, 185, 255, 0.786);
+    border: solid white;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 .botao-clicado {
-    background-color: rgba(255, 217, 0, 0.296);
-    border: solid rgba(218, 165, 32, 0.29);
-    border-radius: 5px;
+    background-color: rgba(255, 235, 121, 0.862);
+    border: solid rgb(0, 145, 255);
+    border-radius: 15px;
     cursor: pointer;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
