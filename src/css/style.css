@@ -1,5 +1,6 @@
 html {
     background-color: black;
+    background-color: black;
     color: aliceblue;
 }
 
@@ -15,10 +16,15 @@ body {
     border-radius: 15px;
 }
 
+
 .titulo {
     display: flex;
     /* Make it a flex container */
+    /* Make it a flex container */
     justify-content: center;
+    /* Center buttons horizontally */
+    margin: 10px 10px;
+    padding: 1px 1px;
     /* Center buttons horizontally */
     margin: 10px 10px;
     padding: 1px 1px;
@@ -40,14 +46,17 @@ body {
 .botoes {
     display: flex;
     /* Make it a flex container */
+    /* Make it a flex container */
     flex-wrap: wrap;
     justify-content: center;
+    /* Center buttons horizontally */
     /* Center buttons horizontally */
     margin: 5px 5px;
 }
 
 .botao {
     margin: 5px 5px;
+    background-color: rgba(94, 185, 255, 0.786);
     background-color: rgba(94, 185, 255, 0.786);
     border: solid white;
     border-radius: 15px;
